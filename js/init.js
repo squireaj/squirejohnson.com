@@ -1,8 +1,22 @@
-(function($){
-  $(function(){
 
-    $('.button-collapse').sideNav();
+
+   $(document).ready(function(){
+   	$('nav').addClass('hide');
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 50;
+
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+				 $('nav').removeClass('hide');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+				 $('nav').addClass('wow hide');
+			 }
+
+		});
+
+	  $('.button-collapse').sideNav();
     $('.parallax').parallax();
+	});
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
