@@ -5837,7 +5837,7 @@ a.waves-effect .waves-ripple {
   .modal h1, .modal h2, .modal h3, .modal h4 {
     margin-top: 0; }
   .modal .modal-content {
-    padding: 24px; }
+    padding: 5px; }
   .modal .modal-footer {
     border-radius: 0 0 2px 2px;
     background-color: #fafafa;
