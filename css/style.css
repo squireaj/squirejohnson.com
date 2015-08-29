@@ -54,6 +54,12 @@ footer.page-footer {
   margin: 0;
 }
 
+.paragraphCenter{
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 1%;
+}
+
 @charset "UTF-8";
 
 
